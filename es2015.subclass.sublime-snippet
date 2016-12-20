@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ClassName} extends ${2:ParentClassName} {
+  constructor() {
+     ${0}
+  }
+}
+]]></content>
+    <tabTrigger>scls</tabTrigger>
+    <scope>source.js,source.ts</scope>
+    <description>Subclass</description>
+</snippet>

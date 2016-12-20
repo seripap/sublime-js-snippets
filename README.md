@@ -12,6 +12,72 @@ Install
 Install via package control: http://wbond.net/sublime_packages/community Search for **JavaScript Snippets** or typically the keywords **js** or **javascript** are suitable. You can install manually be cloning into your Sublime package directory.
 
 
+ES 2015
+--------
+
+### [arrd] Array destructure assignment
+
+```js
+const [ ${1:arrayKey} ] = ${2:array};${0}
+```
+
+### [af] Arrow function
+
+```js
+(${1:arguments}) => {
+  ${0}
+}
+```
+
+### [asfn] Async function
+
+```js
+async function ${1:methodName} (${2:arguments}) {
+  ${0}
+}
+```
+
+### [cls] class
+
+```js
+class ${1:ClassName} {
+  constructor() {
+     ${0}
+  }
+}
+```
+
+### [imp] import
+
+```js
+import ${1:package} from '${1:package}';${0}
+```
+
+### [objd] Object destructure assignment
+
+```js
+const { ${1:objectKey} } = ${2:object};${0}
+```
+
+### [prm] Promise
+
+```js
+new Promise((resolve, reject) => {
+  ${0}
+})
+```
+
+
+### [scls] Subclass
+
+```js
+class ${1:ClassName} extends ${2:ParentClassName} {
+  constructor() {
+     ${0}
+  }
+}
+```
+
 
 Vanilla Snippets
 --------
@@ -171,12 +237,6 @@ it('${1:description}', function () {
 })
 ```
 
-JavaScript Style
-----------------
-
-[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)
-
-Uses [JavaScript Standard Code Style](https://github.com/feross/standard). Read the rules [here](https://github.com/feross/standard#rules).
 
 
 License

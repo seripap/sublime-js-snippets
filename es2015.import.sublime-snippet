@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+import ${1:package} from '${1:package}';${0}
+]]></content>
+    <tabTrigger>imp</tabTrigger>
+    <scope>source.js,source.ts</scope>
+    <description>import</description>
+</snippet>

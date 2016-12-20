@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+async function ${1:methodName} (${2:arguments}) {
+  ${0:// body...}
+}
+]]></content>
+    <tabTrigger>asfn</tabTrigger>
+    <scope>source.js,source.ts</scope>
+    <description>async function</description>
+</snippet>
